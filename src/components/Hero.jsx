@@ -16,7 +16,7 @@ export default function Hero() {
   return (
     <section id="inicio" className="hero">
       <div className="hero-content fade-in" ref={ref}>
-        <img src="/foto-sofia.jpg" alt="Sofía Cestona" className="foto-perfil" />
+        <img src={`${import.meta.env.BASE_URL}foto-sofia.jpg`} alt="Sofía Cestona" className="foto-perfil" />
         <h1>Sofía Cestona</h1>
         <p className="tagline">Software Developer | Tatuadora Profesional | Aspirante a Bombero</p>
         <div className="hero-buttons">
